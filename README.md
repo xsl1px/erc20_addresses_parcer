@@ -1,5 +1,5 @@
-# ERC20 adresses parcer
-ERC20 adresses parcer
+# ERC20 addresses parcer
+ERC20 addresses parcer
 
 Find all addresses which interact with some ethereum address.
 
