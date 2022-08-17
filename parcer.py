@@ -6,10 +6,8 @@ BASE_URL = "https://api.etherscan.io/api"
 
 def make_api_url(module, action, address, **kwargs):
 	url = BASE_URL + f"?module={module}&action={action}&address={address}&apikey={API_KEY}"
-
 	for key, value in kwargs.items():
 		url += f"&{key}={value}"
-
 	return url
 
 def get_account_balance(address):
